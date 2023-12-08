@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: roboto, serif;
+    @apply text-blue-950
+  }
+
+  #app,
+  body {
+    @apply h-screen w-screen overflow-hidden bg-blue-100
+  }
+}
